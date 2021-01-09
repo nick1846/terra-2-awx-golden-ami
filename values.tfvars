@@ -6,7 +6,7 @@ my_publickey = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC1CI0SdYH52DQzv3jR6ltMkwrp
 
 
 #my-eip-values
-eip_count = 1
+eip_count = 2
 vpc_bool  = "true"
 
 #my-vpc-values
@@ -34,7 +34,7 @@ sg_egress_rules  = ["all-all"]
 #my-ec2-values
 
 my_ec2_name = "sample-server"
-ec2_count   = 1
+ec2_count   = 2
 ec2_type    = "t2.micro" 
 ec2_tags    = { Name = "sample-server"}
 
