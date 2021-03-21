@@ -43,8 +43,8 @@ ec2_tags    = { Name = "AWX-server"}
 
 most_recent_bool = "true"
 ami_tag_type     = "name"
-ami_value        = ["amzn2-ami-hvm-2.0.*-x86_64-gp2"]
-ami_owner        = ["amazon"]
+ami_value        = ["awx*"]
+ami_owner        = ["021510583954"]
 
 
 
